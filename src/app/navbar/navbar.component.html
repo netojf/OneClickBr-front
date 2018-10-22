@@ -1,10 +1,13 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark " role="navigation">
   <div class="container">
 
+    <!-- TODO: Aplicar logo do projeto -->
     <a class="navbar-brand" href="#">OneClickBR</a>
     <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
         &#9776;
     </button>
+
+    <!-- TODO: Área reservada para Categorias e Subcategorias -->
     <div class="collapse navbar-collapse" id="exCollapsingNavbar">
 
         <ul class="nav navbar-nav">
@@ -115,9 +118,23 @@
         </ul>
 
     </div>
+
+    <!-- TODO: Aplicar lógica de Select para banco -->
+    <div class="d-flex d-inline-flex " style=" min-width: 150px">
+        <form class="navbar-form form-inline" role="search">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" name="q">
+                <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit"><i class=" fa-search"></i></button>
+                </div>
+            </div>
+        </form>
+    </div>  
+
   </div>
 </nav>
 
+    <!--* Não apagar -->
 <div id="modalPassword" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
       <div class="modal-content">
