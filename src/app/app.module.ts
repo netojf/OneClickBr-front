@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { CategoryBarComponent } from './category-bar/category-bar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     NavbarComponent,
     SidebarComponent,
     ProductListComponent,
-    CarouselComponent
+    CarouselComponent,
+    CategoryBarComponent
   ],
   imports: [
     NgbModule,

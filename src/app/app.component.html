@@ -1,33 +1,36 @@
 
 <div class="container-fluid">
 
-  <!-- *Barra de Navegação -->
-  <app-navbar></app-navbar>
-
-  <!-- *Carousel -->
-<div class="row" style="width: 100%; margin-top: 2em; margin-right: 0px">
-  <div class="col-12">
-    <app-carousel></app-carousel>
-  </div>
+	<!-- *Barra de Navegação -->
+	<!-- *Carousel -->
+	<div class="row" >
+		<div class="col-12">
+				<app-navbar></app-navbar>
+		</div>
+		<div class="col-12" style=" margin-bottom:0px">
+			<app-carousel></app-carousel>
+		</div>
+		<div class="col-12">
+			<app-category-bar></app-category-bar>
+		</div>
+  
 </div>
 
 
 <div class="row">
   <!-- *Área Reservada para Barra lateral -->
   <div class="col-md-4 col-lg-2 col-sm-12">
-    <div class="d-none d-md-block">
-        <div class="collapse show" id="Sidebar">
-            <app-sidebar></app-sidebar>
-        </div>
-    </div>
-      
+	<div class="d-none d-md-block">
+		<div class="collapse show" id="Sidebar">
+			<app-sidebar></app-sidebar>
+		</div>
+	</div>
   </div>
 
   <!-- *Área Reservada para Conteúdo -->
-  <div class="col-auto">
-    <app-product-list></app-product-list>
-  </div>
-</div>
+	<div class="col-auto">
+    		<app-product-list></app-product-list>
+  	</div>
 
 </div>
 
