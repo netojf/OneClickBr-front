@@ -1,6 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//TODO:
+/* 
+import {RouterModule} from '@angular/router'
+import {ROUTES} from 'app.routes caminho' 
+*/
+
 import { AppComponent } from './app.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -21,6 +27,8 @@ import { CategoryBarComponent } from './category-bar/category-bar.component';
   imports: [
     NgbModule,
     BrowserModule
+    //TODO:
+    //RouterModule.forRoot(ROUTES) 
   ],
   providers: [],
   bootstrap: [AppComponent]
